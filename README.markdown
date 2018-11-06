@@ -1,6 +1,8 @@
 # Wife CSV Parser
 
-Usage
+## Usage
+
+Open Terminal.app and then run the following.
 
 ```
 $ git clone git@github.com:jsatk/wife-csv-parser.git
