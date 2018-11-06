@@ -38,7 +38,7 @@ const writeUpdatedCsv = input => {
 
       fs.writeFile('output.csv', output, (err) => {
         handleError(err) // Gross side-effect
-        console.log('File `output.txt` saved successfully! 🎉')
+        console.log('File `output.csv` saved successfully! 🎉')
       })
     })
   })
