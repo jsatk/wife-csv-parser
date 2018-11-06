@@ -1,0 +1,19 @@
+{
+  "name": "parse-wife-spreadsheet",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "parse": "node bin/wife-process-csv.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Atkinson <jesse@jsatk.us>",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^3.1.3",
+    "csv-stringify": "^4.3.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
